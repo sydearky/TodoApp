@@ -1,0 +1,97 @@
+body {
+  margin: 0 5%;
+  color: #050a30;
+  background-image: linear-gradient(to right, #b340b3, #0052b0);
+}
+
+.app {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.texttodo {
+  text-align: center;
+  letter-spacing: 1rem;
+}
+
+.container {
+  margin-top: 5rem;
+  background-color: white;
+  border-radius: 25px;
+  padding: 2rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  margin: 2% 0 0 0;
+  width: 400px;
+  font-weight: bold;
+  color: #050a30;
+  border-radius: 0 10px 10px 0px;
+}
+
+.todo button {
+  color: #050a30;
+  background-color: #7ec8e3;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* /* .todobutton button:nth-child(1) {
+  border-radius: 10px 0 0 10px;
+} */
+
+.todobutton button:nth-child(2) {
+  margin: 0px 5px 0 5px;
+}
+
+/* .todobutton button:nth-child(3) {
+  border-radius: 0 10px 10px 0;
+} */
+
+section {
+  color: #050a30;
+}
+
+.formtodo {
+  display: flex;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.formtodo label {
+  font-size: 1rem;
+  margin: 0 1% 0 0;
+}
+
+.formtodo input {
+  background-color: #c3e0e5;
+  color: #050a30;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  padding: 5px;
+  /* border-radius: 25px; */
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+}
+
+.formtodo button {
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #7ec8e3;
+  color: #050a30;
+  /* margin: 0 0 0 1%; */
+  border-radius: 0 10px 10px 0;
+}
